@@ -1,0 +1,40 @@
+# Ignore node modules
+node_modules
+
+# Ignore Composer vendor directory
+vendor
+
+# Ignore environment configuration files
+.env
+
+# Ignore local development files
+*.log
+*.swp
+
+# Ignore IDE specific directories and files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore temporary and build directories
+tmp/
+temp/
+cache/
+tests/
+coverage/
+
+# Ignore Git and version control files
+.git
+.gitignore
+.gitattributes
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-specific files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
